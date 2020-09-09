@@ -1,22 +1,3 @@
-application {
-  config {
-    baseName library,
-    applicationType monolith,
-    authenticationType jwt
-    packageName com.sgaraba.library,
-    devDatabaseType	h2Disk,
-    prodDatabaseType postgresql,
-    cacheProvider hazelcast,
-    buildTool maven,
-    clientFramework angular,
-    useSass true,
-    testFrameworks [protractor],
-	nativeLanguage en,
-    languages [en, ro, ru]
-  }
-  entities *
-}
-
 DEFAULT_MIN_LENGTH = 4
 DEFAULT_MAX_LENGTH = 50
 

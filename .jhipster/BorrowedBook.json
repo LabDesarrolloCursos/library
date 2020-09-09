@@ -34,5 +34,5 @@
   "readOnly": false,
   "embedded": false,
   "clientRootFolder": "",
-  "applications": ["library"]
+  "applications": "*"
 }

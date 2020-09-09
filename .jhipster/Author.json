@@ -4,13 +4,19 @@
     {
       "fieldName": "firstName",
       "fieldType": "String",
-      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRules": [
+        "required",
+        "maxlength"
+      ],
       "fieldValidateRulesMaxlength": "50"
     },
     {
       "fieldName": "lastName",
       "fieldType": "String",
-      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRules": [
+        "required",
+        "maxlength"
+      ],
       "fieldValidateRulesMaxlength": "50"
     }
   ],
@@ -34,5 +40,5 @@
   "readOnly": false,
   "embedded": false,
   "clientRootFolder": "",
-  "applications": ["library"]
+  "applications": "*"
 }
